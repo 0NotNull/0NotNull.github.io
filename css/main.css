@@ -13,8 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.button a {
   text-decoration: none;
   color: black;
   background-color: white;
@@ -53,7 +51,7 @@
   border: black 1px solid;
   height: 100%;
   color: white;
-  background: url("../images/pug.jpg") no-repeat 40% 35%;
+  background: url("../images/pug.png") no-repeat 40% 35%;
 }
 
 .sample2 {
