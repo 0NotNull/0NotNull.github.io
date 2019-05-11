@@ -19,13 +19,12 @@
 }
 
 .social {
-  margin-top: 70px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
 }
 .social a {
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
 }
 
 .social a i {
@@ -50,7 +49,6 @@
   margin-right: 50px;
   border: black 1px solid;
   height: 100%;
-  color: white;
   background: url("../images/pug.png") no-repeat 40% 35%;
 }
 
@@ -58,9 +56,24 @@
   display: flex;
   flex-flow: column wrap;
 }
+.sample2 ul {
+  margin-bottom: 50px;
+}
 .sample2 li {
   list-style: none;
   margin: 5px;
+}
+
+#imageSize {
+  height: 450px;
+}
+
+.portfolio-image {
+  margin-right: 50px;
+  border: black 1px solid;
+  height: 100%;
+  background: url("../images/work1.png") no-repeat 50%;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=main.css.map */
