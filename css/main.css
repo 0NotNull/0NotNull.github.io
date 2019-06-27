@@ -22,6 +22,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  margin-top: 100px;
 }
 .social a {
   margin: 50px 10px 10px 10px;
