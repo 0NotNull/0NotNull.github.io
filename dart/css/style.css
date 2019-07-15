@@ -1,0 +1,472 @@
+@charset "UTF-8";
+/* line 1, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+a {
+  text-decoration: none; }
+
+/* line 3, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+* {
+  font-family: 'Raleway', sans-serif; }
+
+/* line 5, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.color-b {
+  background-color: #80d8ff; }
+
+/* line 7, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.color-db {
+  background-color: #82b1ff; }
+
+/* line 9, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.color-pr {
+  background-color: #b388ff; }
+
+/* line 11, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.color-pn {
+  background-color: #ea80fc; }
+
+/*first setting end */
+/* line 16, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.container {
+  height: 750px;
+  background-image: linear-gradient(-53deg, #00b8d4 0%, #1de9b6 100%);
+  opacity: 0.8;
+  padding: 50px; }
+
+/* line 22, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.image {
+  background: #061e37 no-repeat url("../images/450035.jpg");
+  background-size: cover; }
+
+/* line 26, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.header-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0; }
+  /* line 33, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .header-nav li {
+    list-style: none; }
+    /* line 36, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .header-nav li a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px; }
+    /* line 42, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .header-nav li a:hover {
+      color: black; }
+
+/* line 45, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.menu {
+  margin: 0 35px; }
+
+/* line 48, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.first-nav-link {
+  margin-right: auto; }
+
+/* line 51, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.end-nav-link {
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid white; }
+
+/* line 56, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.title {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  height: 400px;
+  color: white;
+  margin-top: 160px; }
+  /* line 64, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .title .title-row-first h1 {
+    margin: 0;
+    width: 90%;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 65px;
+    text-transform: uppercase; }
+  /* line 71, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .title .title-row-first p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px; }
+  /* line 75, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .title .title-row-first, .title .title-row-end {
+    box-sizing: border-box;
+    width: 50%; }
+
+/* line 79, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.title-row-end {
+  background: url("../images/player.png") no-repeat;
+  background-size: contain; }
+
+/* line 83, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.title-action button {
+  width: 150px;
+  height: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: #061e37;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 93, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+#free {
+  color: #061e37;
+  background-color: white; }
+
+/*End first screen */
+/* line 99, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.container-offer {
+  height: 700px; }
+
+/* line 102, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.offer-title {
+  margin: 100px auto 50px auto;
+  text-align: center;
+  width: 550px; }
+  /* line 106, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-title h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0; }
+  /* line 110, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-title h3 {
+    color: #b0bec5;
+    font-size: 25px;
+    font-weight: 400; }
+  /* line 114, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-title p {
+    color: #b0bec5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; }
+
+/* line 121, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.offer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-template-rows: 500px; }
+
+/* line 127, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.offer-row {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto 50px; }
+  /* line 133, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-row img {
+    margin-bottom: 20px; }
+  /* line 135, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-row h3 {
+    color: #061e37;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px; }
+  /* line 140, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .offer-row p {
+    color: #78909c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px; }
+
+/* line 147, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.get-started {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  align-content: center;
+  align-items: center; }
+  /* line 153, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .get-started a {
+    padding: 1em;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #1de9b6;
+    font-size: 15px;
+    font-weight: 700;
+    color: white; }
+
+/* line 162, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.container-services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 150px 350px; }
+
+/* line 168, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.services-stat {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px; }
+  /* line 178, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .services-stat p {
+    margin-left: 15px; }
+
+/* line 182, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.services-info, .service-tabs {
+  grid-column: 2/4; }
+
+/* line 185, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.services-info-title {
+  font-size: 45px;
+  font-weight: 400;
+  color: #061e37;
+  text-align: center; }
+
+/* line 190, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.services-info-desc {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #b0bec5;
+  text-align: center; }
+
+/* line 196, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.tab-title {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);
+  margin: 0;
+  padding: 10px 0; }
+
+/* line 200, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.tab-title:hover {
+  background-color: #faefe8; }
+
+/* line 203, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.tab-title::after {
+  content: '▼';
+  float: right; }
+
+/* line 207, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.tab-title-open::after {
+  content: '▲';
+  float: right; }
+
+/* line 211, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.statistic::before {
+  content: url(../images/trending_up.png);
+  margin-right: 10px; }
+
+/* line 214, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.inbox::before {
+  content: url(../images/mail.png);
+  margin-right: 10px; }
+
+/* line 217, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.team::before {
+  content: url(../images/group.png);
+  margin-right: 10px; }
+
+/* line 220, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.setting::before {
+  content: url(../images/settings.png);
+  margin-right: 10px; }
+
+/* line 223, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.feed::before {
+  content: url(../images/rss_feed.png);
+  margin-right: 10px; }
+
+/* line 227, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.tab-content {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center; }
+  /* line 232, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .tab-content p {
+    color: #061e37;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 20px;
+    letter-spacing: 0.45px; }
+
+/* line 240, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.is-hidden {
+  display: none; }
+
+/* line 244, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.review-container {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  background-color: #1de9b6;
+  background-image: linear-gradient(-53deg, #00b8d4 0%, #1de9b6 100%);
+  opacity: 0.95;
+  color: white; }
+
+/* line 255, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.review-button {
+  border-radius: 5px;
+  background-color: #061e37;
+  padding: 1em;
+  color: white; }
+
+/* line 261, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.review > img {
+  border-radius: 50%; }
+
+/* line 264, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.column-review-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 50px; }
+  /* line 270, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .column-review-info h3 {
+    font-size: 45px;
+    font-weight: 400; }
+  /* line 273, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .column-review-info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; }
+
+/* line 277, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.column-review {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+
+/* line 282, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.review {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: center;
+  align-items: center; }
+
+/* line 289, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.review > p {
+  margin-left: 10px;
+  width: 530px;
+  padding: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #78909c;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 25px; }
+
+/* line 302, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.contact-us {
+  height: 660px;
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+  /* line 307, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .contact-us h2 {
+    color: #061e37;
+    font-size: 45px;
+    font-weight: 400; }
+  /* line 311, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .contact-us p {
+    color: #061e37;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; }
+  /* line 317, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .contact-us form {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 50px 50px 200px 55px;
+    gap: 30px; }
+    /* line 324, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .contact-us form textarea {
+      grid-column: 1/3;
+      border-radius: 5px;
+      border: 1px solid #061e37;
+      padding: 5px; }
+    /* line 330, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .contact-us form div {
+      align-self: center; }
+    /* line 332, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .contact-us form a {
+      height: 25px;
+      width: 100px;
+      padding: .8em;
+      box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.15);
+      background-color: #1de9b6;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 30px;
+      text-transform: uppercase;
+      justify-self: end; }
+    /* line 345, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .contact-us form a::before {
+      content: url(../images/mail.png);
+      margin-right: 10px; }
+    /* line 350, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .contact-us form input[type="text"] {
+      border-radius: 5px;
+      border: 1px solid #061e37;
+      padding: 5px; }
+
+/* line 355, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+footer {
+  margin-top: 50px;
+  height: 300px;
+  background-color: #061e37; }
+
+/* line 360, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.footer-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 100px; }
+  /* line 365, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .footer-nav li {
+    list-style: none; }
+    /* line 368, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .footer-nav li a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px; }
+    /* line 374, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+    .footer-nav li a:hover {
+      color: black; }
+
+/* line 377, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.footer-info {
+  display: flex;
+  height: 100px;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px; }
+
+/* line 384, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.about-us {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 10px; }
+  /* line 391, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+  .about-us a {
+    color: white; }
+
+/* line 393, /home/linux/PycharmProjects/dart_service_landing/css/style.sass */
+.social img {
+  margin-right: 5px; }
+
+/*# sourceMappingURL=style.css.map */
