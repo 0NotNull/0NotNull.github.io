@@ -1,0 +1,166 @@
+$font-color: #000000
+$back-color: #f8f8f8
+*
+  color: $font-color
+  text-decoration: none
+  list-style: none
+
+body
+  background-color: #eaeaea
+
+header
+  width: 1120px
+  display: grid
+  grid-template-columns: 200px 2fr 1fr
+  grid-template-rows: 123px
+  box-shadow: 0 0 13px rgba(11, 12, 12, 0.15)
+  background-color: $back-color
+  align-items: center
+  margin: 25px auto
+
+.logo
+  margin: 0 auto
+
+.header-menu
+  display: flex
+  flex-flow: row wrap
+  justify-content: start
+
+  li
+    padding-right: 20px
+// end header
+
+.hero
+  margin: 85px auto
+  height: 438px
+  width: 1120px
+  background: $back-color url(../img/Photo.png) no-repeat 50% 50%
+  display: grid
+  grid-template-columns: 1fr 1fr
+
+
+.block-info
+  display: flex
+  flex-flow: column wrap
+  justify-content: center
+  align-items: start
+  align-content: center
+
+.hero-title
+  color: #921026
+  font-size: 24px
+  font-weight: 400
+  letter-spacing: 0.6px
+
+.hero-info
+  width: 312px
+  font-size: 16px
+  font-weight: 300
+  letter-spacing: 0.4px
+.button
+  border: 1px solid #c2c2c2
+  font-size: 12px
+  font-weight: 300
+  letter-spacing: 0.3px
+  text-align: center
+  padding: 10px 15px
+  margin-top: 10px
+  // end hero
+.other-recipes
+  width: 1120px
+  height: 373px
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+  background-color: $back-color
+  margin: 0 auto
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  gap: 20px
+  justify-items: center
+
+.recipe
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  h3
+    color: $font-color
+    font-size: 16px
+    font-weight: 300
+    letter-spacing: 0.45px
+  p
+    color: #555555
+    font-size: 12px
+    font-weight: 300
+    letter-spacing: 0.3px
+  //end other recipe
+.recipe-full
+  width: 1120px
+  height: 510px
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+  background-color: $back-color
+  margin: 85px auto
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: 10px
+
+.image-recipe-full
+  background: $back-color url(../img/Photo435.png) no-repeat 50% 50%
+  background-size: cover
+.recipe-full-text
+  padding: 15px
+  h2
+    color: #055555
+    font-size: 30px
+    font-weight: 700
+    letter-spacing: 0.8px
+  p
+    color: $font-color
+    font-size: 14px
+    font-weight: 300
+    letter-spacing: 0.4px
+    //end full recipe
+
+.post-comment
+  width: 838px
+  height: 50px
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.15)
+  background-color: $back-color
+  margin: 0 auto
+  padding: 20px
+  h4
+    color: $font-color
+    font-size: 24px
+    font-weight: 400
+    letter-spacing: 0.6px
+.post
+  display: flex
+  align-content: center
+  align-items: center
+  justify-content: space-evenly
+
+  form
+    button
+      width: 87px
+      height: 40px
+      border: 1px solid #c2c2c2
+      background-color: #383737
+      color: white
+    input
+      width: 496px
+      height: 40px
+      border: 1px solid #c2c2c2
+      background-color: #ffffff
+    //end form comment
+footer
+  width: 1120px
+  height: 180px
+  box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.74)
+  background-color: #333333
+  margin: 85px auto
+  display: flex
+  align-items: center
+  align-content: center
+  justify-content: space-around
+
+footer *
+  opacity: 0.5
+  color: #fefefe
