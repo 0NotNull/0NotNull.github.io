@@ -40,8 +40,9 @@ a {
 
 .hero-info {
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    align-items: center;
     line-height: 25px;
     color: #ffffff;
 }
